@@ -17,7 +17,7 @@ Functions:
 team_name = 'TEAM 5'
 strategy_name = '123 punish'
 strategy_description = 'If the other team colludes we will collude but if they betray we will betray for three times and then go back to colluding if they are colluding again as well'
-
+punish = 0
 def move(my_last_move, their_last_move):
     '''
     Make my move based on the history with this player.
@@ -28,7 +28,7 @@ def move(my_last_move, their_last_move):
         opponent made against you
     Returns 'c' or 'b' for collude or betray.
     '''
-    punish=0
+    global punish
     if(their_last_move == 'b' or 0<punish <=3):
         punish= punish +1
         if(punish>3):
@@ -38,4 +38,8 @@ def move(my_last_move, their_last_move):
         return 'c'
 
 if __name__ == '__main__':
-  move()
+    print(move('',''))
+    print(move('c','c'))
+    print(move('c','b'))
+    print(move('b','b'))
+    print(move('b','c'))
