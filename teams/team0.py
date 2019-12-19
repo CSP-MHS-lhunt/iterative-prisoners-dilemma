@@ -1,33 +1,21 @@
 '''
-Iterative Prisoner's Dillema Team Submission
+Iterative Prisoner's Dilemma Team Submission
 
-In this file, you MUST define the following:
-
-Variables:
-  - team_name:            a string with your team's name
-  - strategy_name:        a string with your team's strategy name
-  - strategy_description: a string with your team's strategy name
-
-Functions:
-  - move(my_last_move, their_last_move):
-    your team's implementation of your strategy (see move() docstring)
+Riley, Arber, Innis, Sam
+Block 6 APCSP
+12/19/19
 '''
-
-team_name = 'TEAM 0'
-strategy_name = 'however you want to describe your strategy'
-strategy_description = 'How does this strategy decide?'
+'''ALWAYS COLLUDE'''
+team_name = 'TEAM 0 GANG'
+strategy_name = 'Snitches get stitches, rats get bats'
+strategy_description = 'FULL TRUST, MORAL HIGH GROUND'
 
 def move(my_last_move, their_last_move):
     '''
-    Make my move based on the history with this player.
-
-    my_last_move: a one letter String (c or b) that represents the last move you made
-        against your opponent
-    their_last_move: a one letter String (c or b) that represents the last move your
-        opponent made against you
-    Returns 'c' or 'b' for collude or betray.
+    yo yo yo we fully trusting the goodness of humanity and human decency yo,
+    colluding every time
     '''
-    return 'c'
-
+    
+    return 'c' 
 if __name__ == '__main__':
-  move()
+  move('b','c')
