@@ -27,7 +27,14 @@ def move(my_last_move, their_last_move):
         opponent made against you
     Returns 'c' or 'b' for collude or betray.
     '''
-    return 'c'
+    punish=0
+    if(their_last_move == 'b' or 0<punish <=3):
+        punish= punish +1
+        if(punish>3):
+            punish == 0
+        return 'b'
+    else:
+        return 'c'
 
 if __name__ == '__main__':
   move()
