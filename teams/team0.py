@@ -1,7 +1,7 @@
 '''
 Iterative Prisoner's Dilemma Team Submission
 
-Riley, Arber, Ynnis, other nerd with glasses haha
+Riley, Arber, Innis, Sam
 Block 6 APCSP
 12/19/19
 '''
