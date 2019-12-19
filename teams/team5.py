@@ -1,4 +1,5 @@
 '''
+Names: Griffin,Luke,Jack,Casey
 Iterative Prisoner's Dillema Team Submission
 
 In this file, you MUST define the following:
